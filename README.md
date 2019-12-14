@@ -49,6 +49,10 @@ jQuery and font-awesome is required for this plugin. You can add this to `<head>
 ### Using CDN
 
 如果要自定义有关内容，可以把这个仓库Fork一份，然后进行修改。这时，使用方法对应地变为
+1. 更改autoload.js中live2d_path路径
+2. 更改自己的自定义配置
+3. 添加release版本
+4. 使用jsdelivr作cdn，指定版本请查看jsdliver官网。默认拉取最新版本
 ```xml
 <script src="https://cdn.jsdelivr.net/gh/username/live2d-widget/autoload.js"></script>
 ```
